@@ -1,11 +1,11 @@
-import { Hero } from '../../services/types';
+import type { Hero } from '@/services/types'
 
 export type CardProps = {
-  selected: boolean;
-  disabled: boolean;
-};
+  selected: boolean
+  disabled: boolean
+}
 
 export interface HeroCardListProps {
-  heroId: string;
-  list: Hero[];
+  heroId: string
+  list: Hero[]
 }
